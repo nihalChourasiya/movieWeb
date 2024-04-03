@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">    <title>Movie Description Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./description.css">
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #000000; */
+            background-image: url(./images/bg1.jpg);
+
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            /* background-color: #333; */
+            /* background-image: url(./images/background.jpg); */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00ccff;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            max-width: 800px;
+            margin: 20px auto;
+            /* background-color: #000000; */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie-poster {
+            max-width: 40%;
+            height: 90%;
+            /* border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px; */
+            padding-right: 40px;
+            padding-top: 20px;
+            border-radius: 20px;
+        }
+
+        .movie-details {
+            color: #ffffff;
+            padding: 20px;
+            max-width: 60%;
+        }
+        .movie-details h1{
+            font-family: 'Roboto Slab', serif;
+            font-size: 40px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        p {
+            padding: 3px;
+            color: #ffffff;
+            margin: 0;
+            font-family: 'Arimo', sans-serif;
+        }
+
+        .movie-description p {
+            line-height: 1.6;
+            font-family: 'Playpen Sans', cursive;
+            padding-top: 25px;
+            padding-bottom: 15px;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* .button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        .button:hover {
+            background-color: #555;
+        } */
+        .button {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    backdrop-filter: blur(30px);
+    letter-spacing: 2px;
+    background: rgba(129, 129, 129, 0.233);
+    margin: 15px 15px 15px 30px;
+    padding: 12px 35px;
+    border: 2px solid rgb(32, 244, 255);
+    border-radius: 50px;
+    transition: .15 ease;
+    text-decoration: none;
+    width: 35%;
+  }  
+  .button:hover{
+    background:rgb(32, 244, 255) ;
+    color:black;
+  }
+  .button{
+    justify-content: center;
+    display: flex;
+  }
+  .btn {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    backdrop-filter: blur(30px);
+    letter-spacing: 2px;
+    background: rgba(129, 129, 129, 0.233);
+    margin: 15px 15px 15px 30px;
+    padding: 12px 35px;
+    border: 2px solid rgb(32, 244, 255);
+    border-radius: 50px;
+    transition: .15 ease;
+  }  
+  .btn-primary:hover{
+    background:rgb(32, 244, 255) ;
+    color:black;
+  }
+  .btn1{
+    justify-content: center;
+    display: flex;
+  }
+    </style>
+</head>
+<body>
+    <!-- <header>
+        <h1></h1>
+    </header> -->
+
+    <div class="container">
+        <img class="movie-poster" src="./images/thiller/forensic.jfif" alt="Movie Poster">
+        <div class="movie-details">
+            <h1>Forensic</h1>
+            <p>Genre: Thiller</p>
+            <p>Release Date: February 28, 2020</p>
+            <p>Director: Akhil Paul</p>
+            <p>Starring: Tovino Thomas, Reba Monica</p>
+            <p>Duration: 2 hours 14 minutes</p>
+            <div class="movie-description">
+                <p>
+                    Samuel uses his forensic skills and discovers breakthroughs in a serial killing case as further victims are added to the list. Shikha teams up with Samuel and uncovers evidence that might lead to the killer's identity.
+                </div>
+            <div class="buttons">
+                <a class="button" href="https://www.youtube.com/watch?v=MrtExmicVko">Watch Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
